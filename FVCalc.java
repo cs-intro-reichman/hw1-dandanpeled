@@ -10,7 +10,7 @@ public class FVCalc {
 		double futureValue = currentValue * Math.pow((1 + rate), n); // Calculate the future value
 
 		//Print output
-		String outputAnswer = "After " + n +" years, $" + currentValue + " saved at " + rate + "% will yield $" + futureValue;
+		String outputAnswer = "After " + n +" years, a $" + currentValue + " saved at " + rate + "% will yield $" + futureValue;
 		System.out.println(outputAnswer);
 
 	}
