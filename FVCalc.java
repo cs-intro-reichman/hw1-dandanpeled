@@ -1,6 +1,17 @@
 // Computes the future value of a saving investment.
 public class FVCalc {
 	public static void main(String[] args){
-		// Replace this comment with your code
+
+		//Getting input from user
+		int currentValue = Integer.parseInt(args[0]);
+		double rate = Double.parseDouble(args[1]);
+		int n = Integer.parseInt(args[2]);
+
+		double futureValue = currentValue * Math.pow((1 + rate), n); // Calculate the future value
+
+		//Print output
+		String outputAnswer = "After " + n +" years, $" + currentValue + " saved at " + rate + "% will yield $" + futureValue;
+		System.out.println(outputAnswer);
+
 	}
 }
