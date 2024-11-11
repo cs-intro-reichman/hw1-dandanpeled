@@ -13,7 +13,7 @@ public class Bill3 {
 		double amount = Math.ceil(value/3.0); // Calculating the bill
 
 		//Print output
-		String outputAnswer = "Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " + amount + " Shekels each.";
+		String outputAnswer = "Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + amount + " Shekels each.";
 		System.out.println(outputAnswer);
 	}
 }
