@@ -9,7 +9,7 @@ public class NumWords {
 		int ones = numberToCheck%10;
 
 		//Print output
-		String outputAnswer = hundreds + " hundreds, " + tens + " tens, " + ones +" ones.";
+		String outputAnswer = hundreds + " hundreds, " + tens + " tens, and " + ones +" ones.";
 
 		System.out.println(outputAnswer);
 	}
